@@ -28,26 +28,16 @@
 
         .card-container {
             background: rgba(22, 24, 30, 0.95);
-            border: 1px solid rgba(255, 205, 0, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             max-width: 440px;
             width: 100%;
             padding: 44px 28px;
             border-radius: 24px;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 205, 0, 0.08);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
             text-align: center;
             position: relative;
             overflow: hidden;
             backdrop-filter: blur(10px);
-        }
-
-        .card-container::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, #FFCD00, #FFA500, #FFCD00);
         }
 
         .app-icon-wrapper {
